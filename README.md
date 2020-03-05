@@ -8,13 +8,13 @@ This Hadoop MapReduce program is written in Python 3.7. Two MapReduce jobs are i
 - Pre-process the input so content is read sentence-by-sentence instead of line-by-line
 - Construct N-Gram Library through MapReduce framework (from 2-gram to N-gram models will be built)
 
-<img src="https://github.com/anleihuang/mapreduce_autocomplete/blob/master/docs/nGram_MR2.png"  width="200" height="200">
+<img src="https://github.com/anleihuang/mapreduce_autocomplete/blob/master/docs/nGram_MR2.png"  width="400" height="300">
 
 ### 2. MapReduce Job # 2
 - Build Language Library based on probability. The output format is shown as "first phrase + following word + count" format which is constructed by the second MapReduce job
 - Export the output to MySQL database which is ready to query by the front-end (web service). Here is an front-end template: [jQuery autocomplete tutorial](https://www.wowww.nl/2014/02/01/jquery-autocomplete-tutorial-php-mysql/)
 
-<img src="https://github.com/anleihuang/mapreduce_autocomplete/blob/master/docs/nGram_MR2.png"  width="200" height="200">
+<img src="https://github.com/anleihuang/mapreduce_autocomplete/blob/master/docs/nGram_MR2.png"  width="400" height="300">
 
 
 ## Implementation
