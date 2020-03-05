@@ -72,7 +72,7 @@ echo "foo foo quux labs, foo bar quux. foo bar? foo foo quux labs foo! bar quux 
 ## Environment Setup
 
 ### Hadoop Cluster
-Set up a hadoop cluster with one name node and three data node in AWS
+[Set up a hadoop cluster](https://github.com/anleihuang/mapreduce_clusterOnEC2) with one name node and three data node in AWS
 1. Hadoop Name Node: 1 x t2.large AWS EC2
 2. Hadoop Data Node: 3 x t2.medium AWS EC2
 
